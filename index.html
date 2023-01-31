@@ -11,10 +11,14 @@
 
     <div class="div1">
 
+        <img class="background" src="Background.png" alt="Background">
+        <img class="pattern" src="Pattern.png" alt="Pattern">
+        <img class="pattern1" src="Pattern1.png" alt="pattern1">
+
         <div class="navdiv">
             <nav class="navigation">
                 <div class="logo">
-                    <a href="#"><img src="Logo.png" alt="Logo"></a>
+                    <a href="#"><img class="logo1" src="Logo.png" alt="Logo"></a>
                 </div>
 
                 <div class="header">
@@ -24,25 +28,24 @@
 
                     <a href="#" class="services">Services</a>
 
-                    <div class="pages1">
-                        <a href="#" class="pages">Pages<img class="arrow" src="arrow.png" alt="Hover"></a>
+                        <div class="dropdown">
+
+                            <a href="#" class="pages">Pages<img class="arrow" src="arrow.png" alt="Hover"></a>
+
+                            <div class="dropdown-content">
+
+                              <a class="company" href="#">Company <span>&#8594;</span></a>
+                              <a class="contact" href="#">Contact <span>&#8594;</span></a>
+                              
+                            </div>
                     </div>
 
-                    <!-- <div class="dropdown">
-                        <button class="dropbtn"><a href="#" class="pages">Pages<img class="arrow" src="arrow.png" alt="Hover"></a></button>
-                        <div class="dropdown-content">
-                          <a class="company" href="#">Company <span>&#8594;</span></a>
-                          <a class="contact" href="#">Contact <span>&#8594;</span></a>
-                        </div> -->
-                    
-                    <a href="#" class="blog">Blog</a>
+                <a href="#" class="blog">Blog</a>
 
-                    <div class="log">
-                        <a href="#" class="login">Login</a>
-                        <button class="started"><a class="get" href="#">Get Started</a>
-                            </button>
-                    </div>
-
+                <div class="log">
+                    <a href="#" class="login">Login</a>
+                    <button class="started"><a class="get" href="#">Get Started</a>
+                        </button>
                 </div>
 
             </nav>
@@ -50,6 +53,8 @@
 
             <div class="div2">
             
+                <img class="banner" src="Banner.png" alt="Banner">
+
                 <div class="text">
                     <h5 class="agency"><span class="span1">//</span> Agency</h5>
                     <h1 class="h1-1">A fully integrated<br>
@@ -66,23 +71,6 @@
                         </div>
     
                 </div>
-
-                
-                <div class="backpatt">
-                    <img class="background" src="Background.png" alt="Background">
-                    <img class="pattern" src="Pattern.png" alt="pattern">
-                    <img class="pattern1" src="Pattern1.png" alt="Pattern1">
-                    <img class="pattern2" src="Pattern2.png" alt="Pattern2">
-                    <img class="pattern3" src="pattern3.png" alt="pattern3">
-                    <img class="pattern4" src="pattern4.png" alt="pattern4">
-                    <img class="pattern5" src="pattern5.png" alt="pattern5">
-                    <img class="pattern6" src="pattern6.png" alt="pattern6">
-                </div>
-
-                <!-- <div>
-                    <img class="banner" src="Banner.png" alt="Banner">
-
-                </div> -->
     
         </div>
 
@@ -103,7 +91,22 @@
             </div>
 
             <button class="ourser"><a class="ourserv" href="#">Our Services</a>
-                 <img class="vector11" src="Vector11.png" alt="vector"></button>
+                <svg class="vector11" width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M-3.0598e-07 7.5C-2.45463e-07 8.88447 0.410543 10.2378 1.17971 11.389C1.94888 12.5401 
+                    3.04213 13.4373 4.32122 13.9672C5.6003 14.497 7.00776 14.6356 8.36563 14.3655C9.7235 14.0954 10.9708
+                     13.4287 11.9497 12.4497C12.9287 11.4708 13.5954 10.2235 13.8655 8.86563C14.1356 7.50776 13.997 6.1003 
+                     13.4672 4.82121C12.9373 3.54213 12.0401 2.44888 10.889 1.67971C9.73784 0.910542 8.38447 0.499999 7 
+                     0.499999C5.14458 0.503557 3.36617 1.2422 2.05418 2.55418C0.742198 3.86617 0.00355748 5.64458 -3.0598e-07 
+                     7.5V7.5ZM6.55577 4.67981L9.24807 7.10288C9.30316 7.15333 9.34716 7.21469 9.37725 7.28305C9.40735 7.35142 
+                     9.42289 7.4253 9.42289 7.5C9.42289 7.5747 9.40735 7.64858 9.37725 7.71694C9.34716 7.78531 9.30316 7.84667 
+                     9.24807 7.89711L6.55577 10.3202C6.44988 10.413 6.31186 10.4606 6.17128 10.4528C6.0307 10.4451 5.89875 10.3826 
+                     5.8037 10.2788C5.70864 10.1749 5.65804 10.0379 5.66274 9.89723C5.66745 9.75651 5.72707 9.62324 5.82884 9.52596L8.07692 
+                     7.5L5.82884 5.47404C5.77492 5.42679 5.73098 5.36925 5.69959 5.30479C5.6682 5.24034 5.65 5.17026 5.64606 5.09867C5.64212 
+                     5.02709 5.65251 4.95544 5.67662 4.88792C5.70074 4.82041 5.73809 4.75839 5.7865 4.7055C5.8349 4.65262 5.89338 4.60993 
+                     5.9585 4.57995C6.02362 4.54996 6.09408 4.53328 6.16573 4.53089C6.23738 4.5285 6.30879 4.54044 6.37577 4.56601C6.44275 
+                     4.59158 6.50394 4.63027 6.55577 4.67981Z" fill="#525255"/>
+                    </svg>
+                    </button>
 
         </div>
 
@@ -131,6 +134,245 @@
                           4.53328 6.16573 4.53089C6.23738 4.52849 6.30879 4.54044 6.37577 4.56601C6.44275 4.59158 6.50394 4.63027 6.55577 4.67981Z" fill="#525255"/>
                         </svg></button>
 
+            </div>
+
+            <div class="div4-1-2">
+                <img class="icon1" src="icon2.png" alt="Icon2">
+                <h2 class="h2-001">Paid Advertising</h2>
+                <p class="lorem">Lorem ipsum dolor sit amet, ea<br>
+                    mundi malorum cum, ocurreret<br>
+                    reprehendunt. </p>
+
+                    <button class="readm"><a class="readmo" href="#">Read More</a><svg class="svg1" width="17" height="17" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M-3.0598e-07 7.5C-2.45463e-07 8.88447 0.410543 10.2378 1.17971 11.389C1.94888 12.5401 3.04213 13.4373 4.32122 13.9672C5.6003 14.497 7.00776 14.6356
+                         8.36563 14.3655C9.7235 14.0954 10.9708 13.4287 11.9497 12.4497C12.9287 11.4708 13.5954 10.2235 13.8655 8.86563C14.1356 7.50776 13.997 6.1003 13.4672 4.82121C12.9373 
+                         3.54213 12.0401 2.44888 10.889 1.67971C9.73784 0.910542 8.38447 0.499999 7 0.499999C5.14458 0.503557 3.36617 1.2422 2.05418 2.55418C0.742198 3.86617 0.00355748 5.64458
+                          -3.0598e-07 7.5ZM6.55577 4.67981L9.24807 7.10288C9.30316 7.15333 9.34716 7.21469 9.37725 7.28305C9.40735 7.35142 9.42289 7.4253 9.42289 7.5C9.42289 7.5747 9.40735 7.64858 
+                          9.37725 7.71694C9.34716 7.78531 9.30316 7.84667 9.24807 7.89711L6.55577 10.3202C6.44988 10.413 6.31186 10.4606 6.17128 10.4528C6.0307 10.4451 5.89875 10.3826 5.8037 10.2788C5.70864 
+                          10.1749 5.65804 10.0379 5.66274 9.89723C5.66745 9.75651 5.72707 9.62324 5.82884 9.52596L8.07692 7.5L5.82884 5.47404C5.77492 5.42679 5.73098 5.36925 5.69959 5.30479C5.6682 5.24034 5.65 
+                          5.17026 5.64606 5.09867C5.64212 5.02709 5.65251 4.95544 5.67662 4.88792C5.70074 4.82041 5.73809 4.75839 5.7865 4.7055C5.8349 4.65262 5.89338 4.60993 5.9585 4.57995C6.02362 4.54996 6.09408 
+                          4.53328 6.16573 4.53089C6.23738 4.52849 6.30879 4.54044 6.37577 4.56601C6.44275 4.59158 6.50394 4.63027 6.55577 4.67981Z" fill="#525255"/>
+                        </svg></button>
+
+            </div>
+
+            <div class="div4-1-3">
+                <img class="icon1" src="icon3.png" alt="Icon2">
+                <h2 class="h2-001">Advanced Analytics</h2>
+                <p class="lorem">Lorem ipsum dolor sit amet, ea<br>
+                    mundi malorum cum, ocurreret<br>
+                    reprehendunt. </p>
+
+                    <button class="readm"><a class="readmo" href="#">Read More</a><svg class="svg1" width="17" height="17" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M-3.0598e-07 7.5C-2.45463e-07 8.88447 0.410543 10.2378 1.17971 11.389C1.94888 12.5401 3.04213 13.4373 4.32122 13.9672C5.6003 14.497 7.00776 14.6356
+                         8.36563 14.3655C9.7235 14.0954 10.9708 13.4287 11.9497 12.4497C12.9287 11.4708 13.5954 10.2235 13.8655 8.86563C14.1356 7.50776 13.997 6.1003 13.4672 4.82121C12.9373 
+                         3.54213 12.0401 2.44888 10.889 1.67971C9.73784 0.910542 8.38447 0.499999 7 0.499999C5.14458 0.503557 3.36617 1.2422 2.05418 2.55418C0.742198 3.86617 0.00355748 5.64458
+                          -3.0598e-07 7.5ZM6.55577 4.67981L9.24807 7.10288C9.30316 7.15333 9.34716 7.21469 9.37725 7.28305C9.40735 7.35142 9.42289 7.4253 9.42289 7.5C9.42289 7.5747 9.40735 7.64858 
+                          9.37725 7.71694C9.34716 7.78531 9.30316 7.84667 9.24807 7.89711L6.55577 10.3202C6.44988 10.413 6.31186 10.4606 6.17128 10.4528C6.0307 10.4451 5.89875 10.3826 5.8037 10.2788C5.70864 
+                          10.1749 5.65804 10.0379 5.66274 9.89723C5.66745 9.75651 5.72707 9.62324 5.82884 9.52596L8.07692 7.5L5.82884 5.47404C5.77492 5.42679 5.73098 5.36925 5.69959 5.30479C5.6682 5.24034 5.65 
+                          5.17026 5.64606 5.09867C5.64212 5.02709 5.65251 4.95544 5.67662 4.88792C5.70074 4.82041 5.73809 4.75839 5.7865 4.7055C5.8349 4.65262 5.89338 4.60993 5.9585 4.57995C6.02362 4.54996 6.09408 
+                          4.53328 6.16573 4.53089C6.23738 4.52849 6.30879 4.54044 6.37577 4.56601C6.44275 4.59158 6.50394 4.63027 6.55577 4.67981Z" fill="#525255"/>
+                        </svg></button>
+
+            </div>
+
+        </div>
+
+        <div class="div4-2">
+            <div class="div4-2-1">
+                <img class="icon1" src="Icon3.png" alt="Icon1">
+                <h2 class="h2-001">SEO Optimization</h2>
+                <p class="lorem">Lorem ipsum dolor sit amet, ea<br>
+                    mundi malorum cum, ocurreret<br>
+                    reprehendunt. </p>
+
+                    <button class="readm"><a class="readmo" href="#">Read More</a><svg class="svg1" width="17" height="17" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M-3.0598e-07 7.5C-2.45463e-07 8.88447 0.410543 10.2378 1.17971 11.389C1.94888 12.5401 3.04213 13.4373 4.32122 13.9672C5.6003 14.497 7.00776 14.6356
+                         8.36563 14.3655C9.7235 14.0954 10.9708 13.4287 11.9497 12.4497C12.9287 11.4708 13.5954 10.2235 13.8655 8.86563C14.1356 7.50776 13.997 6.1003 13.4672 4.82121C12.9373 
+                         3.54213 12.0401 2.44888 10.889 1.67971C9.73784 0.910542 8.38447 0.499999 7 0.499999C5.14458 0.503557 3.36617 1.2422 2.05418 2.55418C0.742198 3.86617 0.00355748 5.64458
+                          -3.0598e-07 7.5ZM6.55577 4.67981L9.24807 7.10288C9.30316 7.15333 9.34716 7.21469 9.37725 7.28305C9.40735 7.35142 9.42289 7.4253 9.42289 7.5C9.42289 7.5747 9.40735 7.64858 
+                          9.37725 7.71694C9.34716 7.78531 9.30316 7.84667 9.24807 7.89711L6.55577 10.3202C6.44988 10.413 6.31186 10.4606 6.17128 10.4528C6.0307 10.4451 5.89875 10.3826 5.8037 10.2788C5.70864 
+                          10.1749 5.65804 10.0379 5.66274 9.89723C5.66745 9.75651 5.72707 9.62324 5.82884 9.52596L8.07692 7.5L5.82884 5.47404C5.77492 5.42679 5.73098 5.36925 5.69959 5.30479C5.6682 5.24034 5.65 
+                          5.17026 5.64606 5.09867C5.64212 5.02709 5.65251 4.95544 5.67662 4.88792C5.70074 4.82041 5.73809 4.75839 5.7865 4.7055C5.8349 4.65262 5.89338 4.60993 5.9585 4.57995C6.02362 4.54996 6.09408 
+                          4.53328 6.16573 4.53089C6.23738 4.52849 6.30879 4.54044 6.37577 4.56601C6.44275 4.59158 6.50394 4.63027 6.55577 4.67981Z" fill="#525255"/>
+                        </svg></button>
+
+            </div>
+
+            <div class="div4-2-2">
+                <img class="icon1" src="Icon4.png" alt="Icon1">
+                <h2 class="h2-001">Funnel Optimization</h2>
+                <p class="lorem">Lorem ipsum dolor sit amet, ea<br>
+                    mundi malorum cum, ocurreret<br>
+                    reprehendunt. </p>
+
+                    <button class="readm"><a class="readmo" href="#">Read More</a><svg class="svg1" width="17" height="17" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M-3.0598e-07 7.5C-2.45463e-07 8.88447 0.410543 10.2378 1.17971 11.389C1.94888 12.5401 3.04213 13.4373 4.32122 13.9672C5.6003 14.497 7.00776 14.6356
+                         8.36563 14.3655C9.7235 14.0954 10.9708 13.4287 11.9497 12.4497C12.9287 11.4708 13.5954 10.2235 13.8655 8.86563C14.1356 7.50776 13.997 6.1003 13.4672 4.82121C12.9373 
+                         3.54213 12.0401 2.44888 10.889 1.67971C9.73784 0.910542 8.38447 0.499999 7 0.499999C5.14458 0.503557 3.36617 1.2422 2.05418 2.55418C0.742198 3.86617 0.00355748 5.64458
+                          -3.0598e-07 7.5ZM6.55577 4.67981L9.24807 7.10288C9.30316 7.15333 9.34716 7.21469 9.37725 7.28305C9.40735 7.35142 9.42289 7.4253 9.42289 7.5C9.42289 7.5747 9.40735 7.64858 
+                          9.37725 7.71694C9.34716 7.78531 9.30316 7.84667 9.24807 7.89711L6.55577 10.3202C6.44988 10.413 6.31186 10.4606 6.17128 10.4528C6.0307 10.4451 5.89875 10.3826 5.8037 10.2788C5.70864 
+                          10.1749 5.65804 10.0379 5.66274 9.89723C5.66745 9.75651 5.72707 9.62324 5.82884 9.52596L8.07692 7.5L5.82884 5.47404C5.77492 5.42679 5.73098 5.36925 5.69959 5.30479C5.6682 5.24034 5.65 
+                          5.17026 5.64606 5.09867C5.64212 5.02709 5.65251 4.95544 5.67662 4.88792C5.70074 4.82041 5.73809 4.75839 5.7865 4.7055C5.8349 4.65262 5.89338 4.60993 5.9585 4.57995C6.02362 4.54996 6.09408 
+                          4.53328 6.16573 4.53089C6.23738 4.52849 6.30879 4.54044 6.37577 4.56601C6.44275 4.59158 6.50394 4.63027 6.55577 4.67981Z" fill="#525255"/>
+                        </svg></button>
+
+            </div>
+
+            <div class="div4-2-3">
+                <img class="icon1" src="Icon5.png" alt="Icon1">
+                <h2 class="h2-001">Condent Marketing</h2>
+                <p class="lorem">Lorem ipsum dolor sit amet, ea<br>
+                    mundi malorum cum, ocurreret<br>
+                    reprehendunt. </p>
+
+                    <button class="readm"><a class="readmo" href="#">Read More</a><svg class="svg1" width="17" height="17" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M-3.0598e-07 7.5C-2.45463e-07 8.88447 0.410543 10.2378 1.17971 11.389C1.94888 12.5401 3.04213 13.4373 4.32122 13.9672C5.6003 14.497 7.00776 14.6356
+                         8.36563 14.3655C9.7235 14.0954 10.9708 13.4287 11.9497 12.4497C12.9287 11.4708 13.5954 10.2235 13.8655 8.86563C14.1356 7.50776 13.997 6.1003 13.4672 4.82121C12.9373 
+                         3.54213 12.0401 2.44888 10.889 1.67971C9.73784 0.910542 8.38447 0.499999 7 0.499999C5.14458 0.503557 3.36617 1.2422 2.05418 2.55418C0.742198 3.86617 0.00355748 5.64458
+                          -3.0598e-07 7.5ZM6.55577 4.67981L9.24807 7.10288C9.30316 7.15333 9.34716 7.21469 9.37725 7.28305C9.40735 7.35142 9.42289 7.4253 9.42289 7.5C9.42289 7.5747 9.40735 7.64858 
+                          9.37725 7.71694C9.34716 7.78531 9.30316 7.84667 9.24807 7.89711L6.55577 10.3202C6.44988 10.413 6.31186 10.4606 6.17128 10.4528C6.0307 10.4451 5.89875 10.3826 5.8037 10.2788C5.70864 
+                          10.1749 5.65804 10.0379 5.66274 9.89723C5.66745 9.75651 5.72707 9.62324 5.82884 9.52596L8.07692 7.5L5.82884 5.47404C5.77492 5.42679 5.73098 5.36925 5.69959 5.30479C5.6682 5.24034 5.65 
+                          5.17026 5.64606 5.09867C5.64212 5.02709 5.65251 4.95544 5.67662 4.88792C5.70074 4.82041 5.73809 4.75839 5.7865 4.7055C5.8349 4.65262 5.89338 4.60993 5.9585 4.57995C6.02362 4.54996 6.09408 
+                          4.53328 6.16573 4.53089C6.23738 4.52849 6.30879 4.54044 6.37577 4.56601C6.44275 4.59158 6.50394 4.63027 6.55577 4.67981Z" fill="#525255"/>
+                        </svg></button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="div5">
+
+        <div class="heading">
+
+            <div class="dollar">
+                <img src="dollar.png" alt="dollar">
+            </div>
+
+            <div class="price">
+                <h4><span class="span06">//</span> 06 . Price & Plan</h4>
+            </div>
+
+            <div class="flexible">
+                <h2>Our Flexible Pricing Plans</h2>
+            </div>
+
+        </div>
+
+        <div class="div5-0">
+
+            <div class="div5-1">
+
+                <div class="starter">
+    
+                    <div class="starter0">
+                        <h5 class="starter1">Starter</h5>
+                    </div>
+    
+                    <div class="div5-1-1">
+                        <img class="gear" src="gear.png" alt="gear">
+                        <h2 class="dollar29">$29</h2>
+                        <p class="permonth">/Per Month</p>
+                    </div>
+    
+                    <div class="div5-2">
+    
+                        <div class="emarketing">
+                            <img src="Vector29.png" alt="Vector29">
+                            <p class="markcontent">Email Marketing Content</p>
+                        </div>
+    
+                        <div class="emarketing">
+                            <img src="Vector29.png" alt="Vector29">
+                            <p class="markcontent">Marketing Voice</p>
+                        </div>
+    
+                        <div class="emarketing">
+                            <img src="Vector29.png" alt="Vector29">
+                            <p class="markcontent">Optimize SEO</p>
+                        </div>
+    
+                        <div class="emarketing">
+                            <img src="Vector029.png" alt="Vector29">
+                            <p class="markcontent">Consulting Video</p>
+                        </div>
+    
+                        <div class="emarketing">
+                            <img src="Vector029.png" alt="Vector29">
+                            <p class="markcontent">Marketing Advertising</p>
+                        </div>
+    
+                        <div class="plan">
+                            <a class="purchase" href="#">Purchase Plan</a>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+            <div class="starterdark">
+
+                <div class="starter">
+
+                    <div class="starter0">
+
+                        <div class="starter111">
+                            <h5 class="starter11">Starter</h5>
+                        </div>
+
+                        <div class="popular">
+                            <button class="popularbutt">POPULAR</button>
+                        </div>
+
+                    </div>
+    
+                    <div class="div5-1-1">
+                        <img class="rocket" src="rocket.png" alt="rocket">
+                        <h2 class="dollar49">$49</h2>
+                        <p class="permonth1">/Per Month</p>
+                    </div>
+
+                    <div class="contents">
+
+                        <div class="emarketing1">
+                            <img src="Vector29.png" alt="Vector29">
+                            <p class="markcontent1">Email Marketing Content</p>
+                        </div>
+
+                        <div class="emarketing1">
+                            <img src="Vector29.png" alt="Vector29">
+                            <p class="markcontent1">Marketing Voice</p>
+                        </div>
+
+                        <div class="emarketing1">
+                            <img src="Vector29.png" alt="Vector29">
+                            <p class="markcontent1">Optimize SEO</p>
+                        </div>
+
+                        <div class="emarketing1">
+                            <img src="Vector29.png" alt="Vector29">
+                            <p class="markcontent1">Consulting Video</p>
+                        </div>
+
+                        <div class="emarketing1">
+                            <img src="Vector029.png" alt="Vector29">
+                            <p class="markcontent1">Marketing Advertising</p>
+                        </div>
+
+                        <div class="plan1">
+                            <a class="purchase1" href="#">Purchase Plan</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+    
             </div>
 
         </div>
