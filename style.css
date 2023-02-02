@@ -33,7 +33,7 @@ body {
     position: absolute;
     width: 1208px;
     height: 1208px;
-    right: -587px;
+    right: -363px;
     top: -198px;
     background: #F4F6FB;
     border-radius: 50%;
@@ -59,18 +59,17 @@ body {
 
 .navdiv {
     display: flex;
-    justify-content: center;
     align-items: center;
     padding-top: 61px;
-    width: 1703px;
 }
 
 .navigation {
-    width: 1703px;
+    width: 1200px;
     height: 81px;
     display: flex;
     align-items: center;
     z-index: 1;
+    margin: 0 auto;
 }
 
 .logo {
@@ -85,6 +84,7 @@ body {
 .header {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .home {
@@ -239,7 +239,7 @@ body {
 .arrow {
     width: 25px;
     height: 25px;
-    margin-left: 4px;
+    margin-left: 10px;
 }
 
 /* Dropdown Menu */
@@ -251,7 +251,7 @@ body {
     height: 25px;
 }
 
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #F2ECEE;
@@ -269,17 +269,17 @@ body {
     z-index: 1;
   }
 
-  .dropdown-content a {
+.dropdown-content a {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
 
-  .dropdown-content a:hover {color: #000000;}
+.dropdown-content a:hover {color: #000000;}
 
-  .dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block;}
   
-  .company {
+.company {
     font-family: 'nunito';
     font-style: normal;
     font-weight: 500;
@@ -287,24 +287,22 @@ body {
     color: #292930;
     padding-left: 20px;
     padding-top: 20px;
-    position: relative;
   }
 
-  .company:hover {
+.company:hover {
     background-color: #FFDBD5;
     border-radius: 10px;
   }
 
-  .contact {
+.contact {
     font-family: 'nunito';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     color: #292930;
-    position: relative;
   }
 
-  .contact:hover {
+.contact:hover {
     background-color: #FFDBD5;
     border-radius: 10px;
   }
@@ -318,7 +316,7 @@ body {
     font-size: 18px;
     text-decoration: none;
     color: #292930;
-    margin-left: 58px;
+    margin-left: 62px;
     position: relative;
 }
 
@@ -436,9 +434,7 @@ body {
 
 .div2 {
     display: flex;
-    align-items: center;
     width: 1703px;
-    padding-left: 234px;
     margin: 0 auto;
     position: relative;
 }
@@ -447,13 +443,14 @@ body {
     position: absolute;
     width: 1703px;
     height: 801px;
-    right: 0;
+    right: -44px;
     z-index: 2;
 }
 
 .text {
     width: 740px;
-    margin-top: 194px;
+    margin-top: 105px;
+    margin-left: 305px;
 }
 
 .agency {
@@ -492,12 +489,13 @@ body {
 .buttons {
     display: flex;
     align-items: center;
+    margin-top: 34px;
 }
 
 .ourse {
     width: 182px;
     height: 64px;
-    background-color: #292930;
+    background-color: #FFFFFF;
     font-family: 'nunito';
     border-radius: 7px;
     text-decoration: none;
@@ -509,6 +507,14 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
+    color: #292930;
+}
+
+.ourse:hover {
+    background-color: #292930;
+}
+
+.ourse:hover .ourse1 {
     color: #ffffff;
 }
 
@@ -547,6 +553,7 @@ body {
     margin: 0 auto;
     width: 1200px;
     margin-top: 118px;
+    padding-bottom: 90px;
 }
 
 .icon {
@@ -591,6 +598,7 @@ body {
 
 .ourser:hover {
     background-color: #292930;
+    border: none;
 }
 
 .ourserv {
@@ -602,7 +610,7 @@ body {
     text-decoration: none;
 }
 
-.ourserv:hover {
+.ourser:hover .ourserv {
     color: #ffffff;
 }
 
@@ -702,6 +710,8 @@ body {
 .svg1 {
     padding-left: 8px;
     padding-top: 7px;
+    width: 24px;
+    height: 24px;
 }
 
 .readm:hover svg path {
@@ -813,11 +823,11 @@ body {
     border-radius: 20px;
 }
 
-.div5-1 .plan:hover {
+.div5-1:hover .plan {
     background-color: #F6F6F6;
 }
 
-.div5-1 a:hover {
+.div5-1:hover .purchase {
     color: #292930;
     font-weight: 700;
 }
@@ -913,6 +923,7 @@ body {
     height: 64px;
     border-radius: 7px;
     position: relative;
+    transition: all .2s;
 }
 
 .purchase {
@@ -922,15 +933,39 @@ body {
     font-size: 18px;
     text-decoration: none;
     color: #ffffff;
+    transition: all .2s;
 }
 
 .starterdark {
-    background-color: #292930;
+    background-color: #E2E2E2;
     width: 389px;
     height: 554px;
     border-radius: 10px;
     margin-left: 17px;
     margin-top: 13px;
+    transition: all .3s;
+}
+
+.starterdark:hover {
+    background-color: #292930;
+    color: #F6F6F6;
+}
+
+.starterdark:hover .starter11 {
+    color: #F6F6F6;
+}
+
+.starterdark:hover .dollar49 {
+    color: #F6F6F6;
+}
+
+.starterdark:hover .plan {
+    background-color: #F6F6F6;
+}
+
+.starterdark:hover .purchase {
+    color: #292930;
+    font-weight: 700;
 }
 
 .popular {
@@ -940,8 +975,8 @@ body {
     font-size: 15px;
     color: #292930;
     width: 89px;
-    margin-top: 26px;
-    margin-left: 78px;
+    margin-top: 28px;
+    margin-left: 70px;
 
 }
 
@@ -961,7 +996,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
-    color: #ffffff;
+    color: #292930;
     margin: 0 auto;
 }
 
@@ -977,7 +1012,7 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 50px;
-    color: #ffffff;
+    color: #292930;
     padding-top: 7px;
     padding-left: 39px;
     margin: 0;
@@ -988,60 +1023,11 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    color: #ffffff;
+    color: #555555;
     padding-top: 40px;
     padding-left: 10px;
     padding-bottom: 30px;
     margin: 0;
-}
-
-.contents {
-    width: 313px;
-    height: 216px;
-    margin-top: 30px;
-}
-
-.emarketing1 {
-    display: flex;
-    align-items: center;
-    padding-bottom: 20px;
-}
-
-.markcontent1 {
-    font-family: 'notosans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    padding-left: 9px;
-    margin: 0;
-    color: #FFFFFF;
-}
-
-.plan1 {
-    background-color: #F6F6F6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 313px;
-    height: 64px;
-    border-radius: 7px;
-    position: relative;
-    transition: all .4s;
-}
-
-.plan1:hover {
-    border: 5px solid #292930;
-    border-radius: 10px;
-    width: 69%;
-}
-
-.purchase1 {
-    font-family: 'nunito';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    text-decoration: none;
-    color: #292930;
 }
 
 .starter3 {
@@ -1053,6 +1039,23 @@ body {
     border-radius: 10px;
     margin-left: 17px;
     margin-top: 13px;
+    transition: all .2s;
+}
+
+.starter3:hover {
+    background-color: #292930;
+    color: #F6F6F6;
+    border-radius: 20px;
+    border: 10px solid #ffffff;
+}
+
+.starter3:hover .plan {
+    background-color: #F6F6F6;
+}
+
+.starter3:hover .purchase {
+    color: #292930;
+    font-weight: 700;
 }
 
 .dollar2 {
@@ -1076,18 +1079,105 @@ footer {
 }
 
 .div6 {
-    width: 399px;
+    width: 1200px;
     height: 652.16px;
-    background-color: #3C3C45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 191px;
 }
 
 .div6-1 {
     width: 293px;
-    height: 554.16px;
-    margin: auto;
+    height: 652.16px;
+    background-color: #3C3C45;
 }
 
 .logo2 {
     width: 239px;
     height: 81.16px;
+}
+
+.logo3 {
+    width: 287px;
+    height: 202px;
+}
+
+.subscribe {
+    font-family: 'nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.industry {
+    font-family: 'notosans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #D0D0D0;
+    margin: 0;
+}
+
+.email {
+    width: 293px;
+    height: 62px;
+    background-color: #5B5B61;
+    border-radius: 7px;
+    border: none;
+    padding-left: 26px;
+    font-family: 'nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+.subscrbutt {
+    width: 293px;
+    height: 62px;
+    background-color: #FFDC60;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    font-family: 'nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #292930;
+}
+
+.div6-1 a {
+    text-decoration: none;
+}
+
+.div6-2 {
+    width: 702px;
+    height: 645px;
+    margin: auto;
+}
+
+.adress {
+    width: 662px;
+    height: 152px;
+    display: flex;
+    align-items: center;
+}
+
+.adress1 {
+    width: 255px;
+    height: 152px;
+}
+
+.getin {
+    font-family: 'nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
 }
